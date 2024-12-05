@@ -1,3 +1,6 @@
+def multiply(a,b):
+    return a * b
+
 def isLeap(x): 
     leap = False
     if x % 4 == 0:
