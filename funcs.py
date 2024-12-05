@@ -1,8 +1,8 @@
-def isLeap(y): 
+def isLeap(x): 
     leap = False
-    if y % 4 == 0:
-        if y % 100 == 0:
-            if y % 400 == 0: 
+    if x % 4 == 0:
+        if x % 100 == 0:
+            if x % 400 == 0: 
                 leap = True
         else: 
             leap = True
